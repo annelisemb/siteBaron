@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 5393
+
+website:
+  title: "siteBaron"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - stuff.qmd
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
+
+
+
